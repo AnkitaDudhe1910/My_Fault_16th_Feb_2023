@@ -11,6 +11,7 @@ class Conversion
     int days = sc.nextInt();
 
     int years = days/365;
+    days = days%365;
     int weeks = days/7;
     int remdays = days%7;
     System.out.println(years+" years "+weeks+" weeks "+remdays+" days");
